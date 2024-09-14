@@ -15,23 +15,15 @@
 
   <body>
     <div class="container mt-5">
-
       <div class="card">
         <div class="card-header"><h4>Payment form example</h4></div>
-
-
-
         <div class="card-body mb-3">
-
-          <div class="row"> <!--Message error-->
-
+          <div class="row">
             <div class="col bg-danger-subtle rounded-1 m-3 d-flex align-items-center pt-2">
               <p class="">Some fields are missing</p>
             </div>
-            
           </div>
-
-          <div class="row mb-3"> <!--Primera fila-->
+          <div class="row mb-3">
             <div class="col-md-4 w-5">
               <label for="formGroupExampleInput" class="form-label">Card #</label>
               <input
@@ -41,7 +33,6 @@
                 placeholder="xxxxxxxxxxxxxxxxx"
               />
             </div>
-
             <div class="col-md-4">
               <label for="formGroupExampleInput" class="form-label">CVC #</label>
               <input
@@ -51,7 +42,6 @@
                 placeholder="0000"
               />
             </div>
-
             <div class="col-md-4">
               <label for="formGroupExampleInput" class="form-label"
                 >Amount</label>
@@ -63,8 +53,7 @@
               />
             </div>
           </div>
-
-          <div class="row"> <!--Segona Fila-->
+          <div class="row">
             <div class="col-md-6 w-5">
               <label for="formGroupExampleInput" class="form-label"
                 >First Name</label
@@ -75,11 +64,9 @@
                 id="formGroupExampleInput"
               />
             </div>
-
             <div class="col-md-6">
               <label for="formGroupExampleInput" class="form-label"
-                >Last Name</label
-              >
+                >Last Name</label>
               <input
                 type="text"
                 class="form-control"
@@ -88,8 +75,7 @@
             </div>
           </div>
         </div>
-
-        <div class="row m-2"> <!--Tercera fila-->
+        <div class="row m-2">
           <div class="col-md-6 w-5">
             <label for="formGroupExampleInput" class="form-label">City</label>
             <input
@@ -98,16 +84,20 @@
               id="formGroupExampleInput"
             />
           </div>
-
           <div class="col">
             <label for="inputState" class="form-label">State</label>
             <select id="inputState" class="form-select">
               <option selected>Pick a state</option>
-              <option>Option 2</option>
-              <option>Option 3</option>
+              <option>California</option>
+              <option>Texas</option>
+              <option>Ohaio</option>
+              <option>Florida</option>
+              <option>Virginia</option>
+              <option>Alaska</option>
+              <option>Hawaii</option>
+              <option>Georgia</option>
             </select>
           </div>
-
           <div class="col">
             <label for="formGroupExampleInput" class="form-label">Postal Code</label>
             <input
@@ -117,63 +107,52 @@
             />
           </div>
         </div>
-
-          <div class="row m-2"> <!--Ultima fila-->
-            <div class="col-md-4 w-5">
-                <label for="inputState" class="form-label"><strong>We accept:</strong></label>
-              
-                <div class=" col  container-fluid bg-secondary p-1 rounded-1">
-                  <div class="form-check form-check-inline me-5">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="fa-cc-mastercard">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      <i class="fa-brands fa-cc-mastercard" style="color: #ffffff;"></i>
-                    </label>
-                  </div>              
-
-                  <div class="form-check form-check-inline me-5">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="fa-cc-visa" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                        <i class="fa-brands fa-cc-visa" style="color: #ffffff;"></i>
-                    </label>
-                  </div>
-
-                  <div class="form-check form-check-inline me-5">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="fa-cc-diners-club" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      <i class="fa-brands fa-cc-diners-club" style="color: #ffffff;"></i>
-                    </label>
-                  </div>
-
-                  <div class="form-check form-check-inline me-5">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="paypal" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      <i class="fa-brands fa-cc-paypal" style="color: #ffffff;"></i>
-                    </label>
-                  </div>
+        <div class="row m-2"> 
+          <div class="col-md-4 w-5">
+              <label for="inputState" class="form-label"><strong>We accept:</strong></label>
+              <div class=" col  container-fluid bg-secondary p-1 rounded-1">
+                <div class="form-check form-check-inline me-5">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="fa-cc-mastercard">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    <i class="fa-brands fa-cc-mastercard" style="color: #ffffff;"></i>
+                  </label>
+                </div>              
+                <div class="form-check form-check-inline me-5">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="fa-cc-visa" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                      <i class="fa-brands fa-cc-visa" style="color: #ffffff;"></i>
+                  </label>
                 </div>
-            </div>
+                <div class="form-check form-check-inline me-5">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="fa-cc-diners-club" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    <i class="fa-brands fa-cc-diners-club" style="color: #ffffff;"></i>
+                  </label>
+                </div>
+                <div class="form-check form-check-inline me-5">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="paypal" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    <i class="fa-brands fa-cc-paypal" style="color: #ffffff;"></i>
+                  </label>
+                </div>
+              </div>
           </div>
-
-            <div class="col w-5 m-3">
-              <div>
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <div>
-                <p class="fw-light">Add any notes here.</p>
-              </div>
-            </div>        
-        
-        
-        <div class="card-footer text-body-secondary d-flex justify-content-end"> <!--Botons-->
+        </div>
+        <div class="col w-5 m-3">
+            <div>
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div>
+              <p class="fw-light">Add any notes here.</p>
+            </div>
+          </div>        
+          <div class="card-footer text-body-secondary d-flex justify-content-end"> <!--Botons-->
             <button type="button" class="btn btn-secondary m-2">Cancel</button>
             <button type="button" class="btn btn-primary m-2">Send</button>        
+          </div>
         </div>
-
-      </div>
-
     </div>
-
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
